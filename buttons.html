@@ -1,0 +1,58 @@
+<!-- style is a CSS Selector -->
+<style>
+    .btn-sub { 
+      background-color: rgb(199, 0, 0);   /* buttonun içini background-color ile dolduruyoruz                 */
+      color: white;                       /* yazı renginin değiştirmek için color kullanıyoruz                */
+      border: none;                         /* sınır çizgilerini border: none ile kaldırıyoruz                  */
+      height: 33px;                         /* heigt ve width etki ettiğimiz elemanın boyutlarını değiştiriyor  */
+      width: 105px;
+      border-radius: 2px;                   /* köşeleri rounded yapmak için border - radius kullanıyoruz        */
+      cursor: pointer;                      /* üzerine geldiğimizde pointer çıkması için                        */
+      margin-right: 8px;                    /* CSS'de margin ile belirtilen yönde boşluk oluşturuyoruz          */
+    }
+    .btn-sub:hover {
+        background-color: rgb(254, 102, 102);
+    }
+    .btn-join {
+        background-color: white;
+        color: rgb(0, 136, 255);
+        height: 33px;
+        width: 50px;
+        border-color: rgb(0, 136, 255);
+        border-style: solid;                /* border üzerindeki gradyanı modifiye ettik                        */
+        border-radius: 2px;
+        border-width: 0.9px;
+        cursor:pointer;
+        
+    }
+    .btn-join:hover {                       /* hovering değişikliklerini yapmak için kullanılan syntax          */
+        background-color: rgb(51, 81, 214);
+        color: white;
+
+    }
+    .btn-tweet{
+        background-color: rgb(83, 180, 254);
+        margin-left: 8px;
+        border: none;
+        color: white;
+        border-radius: 18px;
+        height: 33px;
+        width: 74px;
+        font-weight: bold;
+        font-size:15px;
+        cursor: pointer;
+
+    }
+</style>
+
+<button
+ class="btn-sub">SUBSCRIBE
+</button>
+
+<button
+ class="btn-join">JOIN
+</button>
+
+<button class ='btn-tweet'>
+    Tweet
+</button>
